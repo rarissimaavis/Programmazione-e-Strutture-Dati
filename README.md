@@ -1,4 +1,4 @@
 # Esercizi Programmazione e Strutture Dati 💻📘
-## primi esempi:
+## intro:
 - **fatoriale**: esempio di ricorsione
 - **libro**: esempio di implementazione di ADT
