@@ -1,6 +1,6 @@
 # Esercizi Programmazione e Strutture Dati 💻📘
 ## intro:
-- **fatoriale**: esempio di ricorsione
+- **fattoriale**: esempio di ricorsione
 - **libro**: esempio di implementazione di ADT
 - **ordina**: selection sort
 ## lab 04-03:
