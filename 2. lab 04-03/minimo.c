@@ -12,15 +12,25 @@ void *xcalloc(size_t n, size_t size)
     }
     return result;
 }
-char minimo(char *a)
+void *xrealloc(void *p, size_t nbytes)
 {
-    char min = a[0];
-    int len = strlen(a);
+    void *result;
+    if ((result = realloc(p, nbytes)) == NULL)
+    {
+        fprintf(stderr, "errore di riallocazione memoria\n");
+        exit(-1);
+    }
+    return result;
+}
+char minimo(char *s)
+{
+    char min = s[0];
+    int len = strlen(s);
     for (int i = 1; i < len; i++)
     {
-        if (a[i] < min)
+        if (s[i] < min)
         {
-            min = a[i];
+            min = s[i];
         }
     }
     return min;
@@ -33,10 +43,10 @@ int main(void)
 
     printf("inserisci il nome: ");
     scanf("%s", nome);
-    nome = realloc(nome, strlen(nome)+1);
+    nome = xrealloc(nome, strlen(nome)+1);
     printf("inserisci il cognome: ");
     scanf("%s", cognome);
-    cognome = realloc(cognome, strlen(cognome)+1);
+    cognome = xrealloc(cognome, strlen(cognome)+1);
 
     minn = minimo(nome);
     minc = minimo(cognome);
