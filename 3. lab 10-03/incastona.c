@@ -22,29 +22,35 @@ void *xrealloc(void *p, size_t nbytes)
     }
     return result;
 }
-char *merge(char *s1,char *s2)
+char *incastona(char *s1, char *s2)
 {
-    char *result;
-    result = xcalloc(strlen(s1) + strlen(s2) + 1, 1);
-    strcpy(result, s1);
-    strcat(result, s2);
-    return result;
-}
-void crea(char **nomecognome)
-{
-    char *nome, *cognome;   
-    nomecognome = xrealloc(nomecognome, 3 * sizeof(char*));
-    nomecognome[2] = xcalloc(7, sizeof(char));
-    strncpy(nomecognome[2], nome, 3);
-    nomecognome[2][3] = '\0';
-    nomecognome[2] = merge(nomecognome[2], cognome+strlen(cognome)-3);
+    int len1, len2, i, j=0;
+    len1 = strlen(s1);
+    len2 = strlen(s2);
+    if (len1 > len2)
+    {
+        for (i = (len1-len2)/2; i < (len1+len2)/2; i++)
+        {
+            s1[i] = s2[j];
+            j++;
+        }
+        return s1;
+    }
+    else if (len2 > len1)
+    {
+        for (i = (len2-len1)/2; i < (len2+len1)/2; i++)
+        {
+            s2[i] = s1[j];
+            j++;
+        }
+        return s2;
+    }
 }
 int main(void)
 {
-    char *result, *nome, *cognome, **nomecognome;
+    char *sandwich, *nome, *cognome, *nomecognome[2];
     nome = xcalloc(MAX, sizeof(char));
     cognome = xcalloc(MAX, sizeof(char));
-    nomecognome = xcalloc(2, sizeof(char*));
 
     printf("inserisci il nome: ");
     scanf("%s", nome);
@@ -55,8 +61,8 @@ int main(void)
 
     nomecognome[0] = nome;
     nomecognome[1] = cognome;
-    
-    crea(nomecognome);
-    printf("la nuova matrice è: %s %s %s\n", nomecognome[0], nomecognome[1], nomecognome[2]);
+
+    sandwich = incastona(nomecognome[0], nomecognome[1]);
+    printf("il risultato dell'incastonamento è: %s\n", sandwich);
     return 0;
 }

@@ -30,21 +30,11 @@ char *merge(char *s1,char *s2)
     strcat(result, s2);
     return result;
 }
-void crea(char **nomecognome)
-{
-    char *nome, *cognome;   
-    nomecognome = xrealloc(nomecognome, 3 * sizeof(char*));
-    nomecognome[2] = xcalloc(7, sizeof(char));
-    strncpy(nomecognome[2], nome, 3);
-    nomecognome[2][3] = '\0';
-    nomecognome[2] = merge(nomecognome[2], cognome+strlen(cognome)-3);
-}
 int main(void)
 {
-    char *result, *nome, *cognome, **nomecognome;
+    char *concat, *nome, *cognome, *nomecognome[2];
     nome = xcalloc(MAX, sizeof(char));
     cognome = xcalloc(MAX, sizeof(char));
-    nomecognome = xcalloc(2, sizeof(char*));
 
     printf("inserisci il nome: ");
     scanf("%s", nome);
@@ -55,8 +45,8 @@ int main(void)
 
     nomecognome[0] = nome;
     nomecognome[1] = cognome;
-    
-    crea(nomecognome);
-    printf("la nuova matrice è: %s %s %s\n", nomecognome[0], nomecognome[1], nomecognome[2]);
+
+    concat = merge(nomecognome[0], nomecognome[1]);
+    printf("il risultato della concatenazione è: %s\n", concat);
     return 0;
 }
