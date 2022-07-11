@@ -13,6 +13,8 @@
 - **crea**: aggiunge una terza stringa alla matrice composta dai primi tre caratteri del nome e gli ultimi tre del cognome
 - **insertionsort**: ordina i caratteri del nome e del cognome con l'algoritmo di ordinamento insertion sort
 - **bubblesort**: ordina i caratteri del nome e del cognome con l'algoritmo di ordinamento bubble sort
+## ADT
+- **ADT punto**
 ## lab 4: ADT punto
 - **distanza minore di d**: prende in input una sequenza di punti e un numero reale d e restituisce il numero di coppie m di punti a distanza minore di d
 - **distanza massima**: prende in input una sequenza di punti e restituisce i due punti a distanza massima

@@ -1,3 +1,10 @@
+/*
+specifica sintattica:
+    tipo di riferimento: punto
+    tipi usati: reale 
+specifica semantica:
+    il tipo punto è l'insieme delle coppie (ascissa, ordinata) dove ascissa e ordinata sono numeri reali
+*/
 typedef struct miopunto *punto;
 
 /*
