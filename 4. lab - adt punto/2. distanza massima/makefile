@@ -9,5 +9,3 @@ punto.o: punto.c
 
 clear:
 	rm *.o	
-
-	
