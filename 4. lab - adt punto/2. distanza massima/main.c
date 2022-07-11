@@ -74,7 +74,7 @@ int main()
 
     dmax = distanza_max(p, n, pmax);
 
-    printf("I punti a distanza massima (%g) sono:\n", dmax);	
+    printf("I punti a distanza massima (%g) sono: \n", dmax);	
     stampa(pmax[0]);
     stampa(pmax[1]);
     return 0;
