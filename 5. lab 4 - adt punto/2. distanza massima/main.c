@@ -8,9 +8,9 @@ traccia
     a distanza massima della sequenza. Mostrare su standard output sia i due punti che la loro distanza
 
 specifica
-    dati di ingresso: una sequenza sp di punti
+    dati di ingresso: una sequenza p di punti
     dati di uscita: p1 e p2 
-    precondizione: sp non vuota
+    precondizione: p non vuota
     postcondizione: p1 e p2 sono i due punti a distanza massima dmax
 
 progettazione

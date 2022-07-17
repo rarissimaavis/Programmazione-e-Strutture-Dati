@@ -8,9 +8,9 @@ traccia
     e restituisce il numero di coppie m di punti a distanza minore di d
 
 specifica   
-    dati di ingresso: una sequenza sp di punti, un numero reale d
+    dati di ingresso: una sequenza p di punti, un numero reale d
     dati di uscita: un intero m
-    precondizione: sp non vuota
+    precondizione: p non vuota
     postcondizione: m è il numero di coppie di punti p1 e p2 in sp tali che distanza(p1, p2) < d
 
 progettazione
