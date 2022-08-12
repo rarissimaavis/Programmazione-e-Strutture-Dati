@@ -18,3 +18,8 @@
 ## lab 4: ADT punto
 - **distanza minore di d**: prende in input una sequenza di punti e un numero reale d e restituisce il numero di coppie m di punti a distanza minore di d
 - **distanza massima**: prende in input una sequenza di punti e restituisce i due punti a distanza massima
+## lab 7: stack
+- **input stack**: crea uno stack di interi presi da tastiera
+- **inverti stack**: crea una copia (funzione copia stack) dello stack i cui elementi sono invertiti
+- **merge**: combina gli elementi di due stack secondo l'ordine in cui vengono passati in input alla funzione
+- **estrai**: cancella gli elementi corrispondenti ad un n dato in input
