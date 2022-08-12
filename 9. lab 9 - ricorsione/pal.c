@@ -71,6 +71,7 @@ int main(void)
     printf("inserisci una parola: ");
     parola = leggi_stringa(MAX_LEN+1);
     len = strlen(parola)-1;
+    
     pal = palindroma(parola, 0, len);
     if (pal == 1)
     {

@@ -31,6 +31,7 @@ int main(void)
     scanf("%d", &riga);
     printf("inserisci colonna: ");
     scanf("%d", &colonna);
+    
     tart = tartaglia(riga, colonna);
     printf("il valore in posizione (%d,%d) è %d\n", riga, colonna, tart);
     return 0;

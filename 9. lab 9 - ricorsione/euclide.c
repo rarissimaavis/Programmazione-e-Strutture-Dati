@@ -30,11 +30,11 @@ int euclide(int m, int n)
 int main(void)
 {
     int MCD, m, n;
-
     printf("inserisci un intero positivo: ");
     scanf("%d", &m);
     printf("inserisci un intero positivo < del precedente: "); //precondizione: m > n
     scanf("%d", &n);
+    
     MCD = euclide(m, n); 
     printf("%d\n", MCD);
     return 0;

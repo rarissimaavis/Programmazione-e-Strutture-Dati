@@ -29,6 +29,7 @@ int main(void)
     int qn, n;
     printf("inserisci un intero da elevare al quadrato: ");
     scanf("%d", &n);
+    
     qn = nquad(n);
     printf("il quadrato di %d è %d\n", n, qn);
     return 0;
