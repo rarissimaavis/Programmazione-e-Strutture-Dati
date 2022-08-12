@@ -23,3 +23,9 @@
 - **inverti stack**: crea una copia (funzione copia stack) dello stack i cui elementi sono invertiti
 - **merge**: combina gli elementi di due stack secondo l'ordine in cui vengono passati in input alla funzione
 - **estrai**: cancella gli elementi corrispondenti ad un n dato in input
+##lab 9: ricorsione
+- **euclide**: calcola il massimo comune divisore di due numeri interi positivi con l'algoritmo di Euclide
+- **nquad**: calcola l’n-esimo quadrato n^2 si come somma dei primi n numeri dispari
+- **pal**: verifica se una parola è palindroma
+- **sizelistrec**: calcola il numero di elementi in una lista
+- **tart**: calcola il valore di un generico elemento del triangolo di Tartaglia
