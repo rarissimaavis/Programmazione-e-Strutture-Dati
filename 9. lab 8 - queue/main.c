@@ -17,7 +17,7 @@ specifica
 
 progettazione
     1. inizializza check a 1
-    2. finchè check = 1:
+    2. finchè check = 1,
        2.1 inserisci da tastiera ascissa e ordinata di un punto
        2.2 crea il punto
        2.3 inserisci il punto nella coda

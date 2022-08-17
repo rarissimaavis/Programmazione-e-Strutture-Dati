@@ -23,6 +23,11 @@
 - **inverti stack**: crea una copia (funzione copia stack) dello stack i cui elementi sono invertiti
 - **merge**: combina gli elementi di due stack secondo l'ordine in cui vengono passati in input alla funzione
 - **estrai**: cancella gli elementi corrispondenti ad un n dato in input
+## lab 8: queue
+- **coda di punti**: crea una coda i cui item sono ADT punto
+- **sottocode**: dividi la coda in 4 sottocode corrispondenti ai 4 quadranti del piano cartesiano
+- **spezzata**: calcola la lunghezza della spezzata formata dai punti
+- **concatenazione**: crea una nuova coda ottenuta per concatenazione delle due date in input
 ## lab 9: ricorsione
 - **euclide**: calcola il massimo comune divisore di due numeri interi positivi con l'algoritmo di Euclide
 - **nquad**: calcola l’n-esimo quadrato n^2 si come somma dei primi n numeri dispari
