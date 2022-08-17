@@ -70,6 +70,7 @@ specifica
 progettazione
     1. rimuovi dalla lista l'elemento la cui posizione è (dimensione della lista-1)/2
 */
+
 list rimuovi_centrale(list l)
 {
     return removeList(l, (sizeList(l)-1)/2);
