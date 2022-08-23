@@ -34,3 +34,9 @@
 - **pal**: verifica se una parola è palindroma
 - **sizelistrec**: calcola il numero di elementi in una lista
 - **tart**: calcola il valore di un generico elemento del triangolo di Tartaglia
+## lab 10: alberi
+- **creazione da file**: realizza un albero binario i cui nodi contengono dei numeri letti da file
+- **conta foglie**: conta il numero di foglie presenti in un albero 
+- **albero speculare**: inverte ciascun nodo sinistro con il nodo destro
+- **min/max**: ricerca il nodo con valore minimo e massimo
+- **uguaglianza**: verifica se due alberi sono uguali
