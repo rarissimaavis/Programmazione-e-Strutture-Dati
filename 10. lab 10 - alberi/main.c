@@ -230,7 +230,7 @@ int uguaglianza(Btree T1, Btree T2)
 
 int main(void)
 {
-    int numel, foglie, min, max, eq, numel2;
+    int numel, numel2, foglie, min, max, eq;
 
     Btree T;
     T = newBtree();
