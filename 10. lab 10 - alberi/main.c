@@ -240,7 +240,7 @@ int main(void)
     
     Btree T2;
     T2 = newBtree();
-    T2 = file_input_Btree("input2.txt", &numel);
+    T2 = file_input_Btree("input2.txt", &numel2);
     printf("\nalbero 2: \n");
     output_Btree(T2, 0);
     
