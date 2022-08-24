@@ -1,7 +1,6 @@
 #include "item.h"
 
 typedef struct node *Btree;
-// typedef struct node node;
 
 /*
 specifica sintattica:
