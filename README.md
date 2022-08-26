@@ -40,3 +40,9 @@
 - **albero speculare**: inverte ciascun nodo sinistro con il nodo destro
 - **min/max**: ricerca il nodo con valore minimo e massimo
 - **uguaglianza**: verifica se due alberi sono uguali
+## lab 11: alberi di ricerca
+- **isBST**: verifica se un Btree è un albero binario di ricerca
+- **nodi in un intervallo**: stampa in ordine i nodi nell'intervallo [A, B]
+- **bilanciato**: costruisce un albero binario di ricerca perfettamente bilanciato
+- **nodi ad altezza k**: restituisce i nodi ad altezza k 
+- **mediano**: verifica se il nodo di valore U è mediano del sottoalbero di cui è radice
