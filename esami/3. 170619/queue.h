@@ -21,7 +21,7 @@ specifica semantica:
 int presenteQ(queue q, item el);
 
 /*
-1. 
+2. 
 specifica sintattica: 
     dati di input: queue q1, queue q2
     dati di output: queue q'
