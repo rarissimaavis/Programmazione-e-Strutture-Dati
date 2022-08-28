@@ -129,7 +129,6 @@ progettazione
 			(in modo da eliminare il max)
 		4.1 inserisci curr in q
 		4.2 aggiorna il valore di curr con il primo elemento della queue
-		
 	5. restituisci q
 
 raffinamento: funzione maxn
