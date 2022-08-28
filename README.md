@@ -50,3 +50,4 @@
 ## esami
 - **010719**: cancFinoItem, fondiDaItem (code)
 - **110717**: estraiMaxN, inserMinN (code)
+- **170619**: presenteQ, xorQ (code)
