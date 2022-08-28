@@ -149,7 +149,7 @@ int presenteQ(queue q, item el)
 }
 
 /*
-1. 
+1. xorQ
 
 progettazione
 	1. assegna a curr1 il primo elemento di q1
