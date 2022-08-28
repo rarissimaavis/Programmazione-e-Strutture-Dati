@@ -46,3 +46,7 @@
 - **bilanciato**: costruisce un albero binario di ricerca perfettamente bilanciato
 - **nodi ad altezza k**: restituisce i nodi ad altezza k 
 - **mediano**: verifica se il nodo di valore U è mediano del sottoalbero di cui è radice
+
+## esami
+- **010719**: cancFinoItem, fondiDaItem (code)
+- **110717**: estraiMaxN, inserMinN (code)
