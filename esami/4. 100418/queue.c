@@ -129,23 +129,6 @@ progettazione
 	6. restituisci q
 */
 
-int presenteQ(queue q, item el)
-{
-	int v = 0;
-	enqueue(NULLITEM, q);
-	item curr = dequeue(q);
-	while (curr != NULLITEM)
-	{
-		if (curr == el)
-		{
-			v = 1;
-		}
-		enqueue(curr, q);
-		curr = dequeue(q);
-	}
-	return v;
-}
-
 queue cancDaItem(queue q, item el)
 {
 	enqueue(NULLITEM, q);
@@ -179,6 +162,23 @@ progettazione
 		4.3 aggiorna curr con il primo elemento di q1
 	5. restituisci q3
 */
+
+int presenteQ(queue q, item el)
+{
+	int v = 0;
+	enqueue(NULLITEM, q);
+	item curr = dequeue(q);
+	while (curr != NULLITEM)
+	{
+		if (curr == el)
+		{
+			v = 1;
+		}
+		enqueue(curr, q);
+		curr = dequeue(q);
+	}
+	return v;
+}
 
 queue fondiQueue(queue q1, queue q2)
 {
