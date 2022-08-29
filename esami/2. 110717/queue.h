@@ -22,7 +22,7 @@ item maxn(queue q, int n);
 queue estraiMaxN(queue q, int n);
 
 /*
-1. inserMinN
+2. inserMinN
 specifica sintattica: inserMinN(queue, item, int) -> queue
     dati di input: queue q, item el, int n
     dati di output: queue q'
