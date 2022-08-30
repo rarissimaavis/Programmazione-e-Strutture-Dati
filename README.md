@@ -52,3 +52,4 @@
 - **110717**: estraiMaxN, inserMinN (code)
 - **170619**: presenteQ, xorQ (code)
 - **100418**: cancDaItem, fondiQueue (code)
+- **250118**: cancDaItem, fondiDaItem (liste)
