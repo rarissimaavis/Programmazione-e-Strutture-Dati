@@ -11,6 +11,7 @@
 - **bubblesort**: ordina i caratteri del nome e del cognome con l'algoritmo di ordinamento bubble sort
 ## ADT
 - **ADT punto**
+- **ADT libro**
 ## lab 4: ADT punto
 - **distanza minore di d**: prende in input una sequenza di punti e un numero reale d e restituisce il numero di coppie m di punti a distanza minore di d
 - **distanza massima**: prende in input una sequenza di punti e restituisce i due punti a distanza massima
