@@ -18,14 +18,14 @@ list removeList(list l, int pos);
 
 /*
 1.
-specifica sintattica: cancDaItem(list, item) -> list
+specifica sintattica: cancFinoItem(list, item) -> list
     dati di input: list l, item el
     dati di output: list l'
 specifica semantica:
     postcondizione: se el non è presente in l restituisce la lista senza modifiche, altrimenti in l
-    non sono più presenti gli elementi di posizioni successive all'ultima occorrenza di el
+    non sono più presenti gli elementi di posizioni precedenti ad el
 */
-list cancDaItem(list l, item el);
+list cancFinoItem(list l, item el);
 
 /*
 1.
@@ -33,6 +33,6 @@ specifica sintattica: fondiDaItem(list, list, item) -> list
     dati di input: list l1, list l2, item el
     dati di output: list new
 specifica semantica:
-    postcondizione: new contiene gli elementi comuni a l1 ed l2 a partire dall'ultima occorrenza di el
+    postcondizione: new contiene gli elementi comuni a l1 ed l2 a partire da el
 */
 list fondiDaItem(list l1, list l2, item el);
