@@ -162,7 +162,6 @@ int main(void)
     int a[7] = {10,6,18,4,8,15,21}; //numel = 2^k-1
     
     BST TB;
-    TB = newBST();
     TB = input_BST(a, 7);
     output_BST(TB, 0);
     
