@@ -64,8 +64,8 @@ int posItem (list l, item val);
 specifica sintattica:
     getItem(list, integer) -> item
 specifica semantica:
-    precondizione:
-    postcondizione: 
+    precondizione: p>=0 AND sizeList(l)>p (assumiamo 0 come prima posizione)
+    postcondizione: e è l'elemento che occupa in l la posizione p
 */
 item getItem (list l, int pos);
 
