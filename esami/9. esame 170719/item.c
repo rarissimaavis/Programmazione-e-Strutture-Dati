@@ -19,10 +19,10 @@ int eq(key x, key y)
 
 int minore(key x, key y)
 {
-  return x < y;
+    return x < y;
 }
 
 int maggiore(key x, key y)
 {
-  return x > y;
+    return x > y;
 }
