@@ -16,9 +16,9 @@
 - **distanza minore di d**: prende in input una sequenza di punti e un numero reale d e restituisce il numero di coppie m di punti a distanza minore di d
 - **distanza massima**: prende in input una sequenza di punti e restituisce i due punti a distanza massima
 ## lab 6: list
-- **cerca elemento**: cercare l'elemento 55 nella lista
-- **cerca posizione**: cercare la posizione dell'elemento 25
-- **rimuovi centrale**: rimuovere dalla lista l'elemento in posizione centrale senza avere la conoscenza a priori della dimensione della lista
+- **cerca elemento**: cerca l'elemento 55 nella lista
+- **cerca posizione**: cerca la posizione dell'elemento 25
+- **rimuovi centrale**: rimuove dalla lista l'elemento in posizione centrale senza avere la conoscenza a priori della dimensione della lista
 ## lab 7: stack
 - **input stack**: crea uno stack di interi presi da tastiera
 - **inverti stack**: crea una copia (funzione copia stack) dello stack i cui elementi sono invertiti
