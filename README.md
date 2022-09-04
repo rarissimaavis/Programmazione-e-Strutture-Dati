@@ -47,7 +47,12 @@
 - **bilanciato**: costruisce un albero binario di ricerca perfettamente bilanciato
 - **nodi ad altezza k**: restituisce i nodi ad altezza k 
 - **mediano**: verifica se il nodo di valore U è mediano del sottoalbero di cui è radice
-
+## lab 12: pqueue e heap
+- **min/max**: restituisce il valore del nodo massimo e del nodo minimo di un heap
+- **incrementa chiave**: modifica un heap sostisuendo la key k con un nuovo valore
+- **heapify**: dispone gli elementi di un array in modo tale da corrispondere ad uno heap
+- **stack**: simula push e pop
+- **merge**: combina due pqueue (senza eliminarle)
 ## esami
 - **010719**: cancFinoItem, fondiDaItem (code)
 - **110717**: estraiMaxN, inserMinN (code)
