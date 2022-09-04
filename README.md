@@ -62,3 +62,4 @@
 - **110917**: cancFinoItem, fondiDaItem (liste)
 - **110919**: constrAVL, isAVL (BST)
 - **050918**: listKeys, remGreatestKeys (code a priorità)
+- **170719**: estraiPriorK, aumentaPrior (code a priorità)
