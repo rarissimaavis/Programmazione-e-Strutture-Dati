@@ -63,3 +63,4 @@
 - **110919**: constrAVL, isAVL (BST)
 - **050918**: listKeys, remGreatestKeys (code a priorità)
 - **170719**: estraiPriorK, aumentaPrior (code a priorità)
+- **150622**: foglieK, pqIncrease, strutturalmenteSimili (Btree, code a priorità, Btree)
