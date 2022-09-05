@@ -1,6 +1,6 @@
 typedef int key;
 
-#define NULLkey 0
+#define NULLKEY 0
 
 void input_key(key *x); //inserisce una key 
 void output_key(key x); //mostra in output la key x
