@@ -30,5 +30,4 @@ specifica semantica:
     precondizione: no doppie perchè non so come gestirle
     postcondizione: newQ contiene gli elementi comuni a q1 e q2 successivi a el
 */
-
 queue fondiDaItem(queue q1, queue q2, item el);
