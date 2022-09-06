@@ -121,7 +121,7 @@ void output_queue(queue q)
 1. presenteQ
 
 progettazione
-	1. inizializza  va 0
+	1. inizializza v a 0
 	2. inserisci NULLITEM in q
 	2. assegna a curr il primo elemento della queue
 	3. fichè curr è diverso da NULLITEM,
