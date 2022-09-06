@@ -185,7 +185,7 @@ queue estraiMaxN(queue q, int n)
 }
 
 /*
-1. estraiMaxN
+1. inserMinN
 
 progettazione
 	1. assegna a min il massimo dei primi n elementi di q (funzione maxn)
