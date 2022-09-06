@@ -114,7 +114,7 @@ Btree input_Btree(int *a, int i, int numel)
 progettazione
     1. passo base: 
         1.1 se t è vuoto restituisci 0
-        1.2 se t ha un solo figlio
+        1.2 se t ha un solo figlio restituisci 1
     2. passo ricorsivo: restituisci la somma dei figli unici del sottoalbero sx e del sottoalbero dx
 */
 
