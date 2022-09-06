@@ -17,7 +17,7 @@ specifica
 progettazione
     1. se x (radice) è > A continua nel sottoalbero sinistro
     2. se x è compreso tra A e B inizia la stampa 
-    3. se x è <>> B continua nel sottoalbero destro
+    3. se x è < B continua nel sottoalbero destro
 */
 
 void output_intervallo(BST T, int A, int B)
