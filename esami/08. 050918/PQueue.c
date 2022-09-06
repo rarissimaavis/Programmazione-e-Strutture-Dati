@@ -138,7 +138,7 @@ void output_PQ(PQueue q)
 
 progettazione
 	1. crea lista l e pqueue tmp
-	2. finchè ps non è vuota, inserisci il valore di priorità massima in tmp e in l, poi eliminalo da pq
+	2. finchè pq non è vuota, inserisci il valore di priorità massima in tmp e in l, poi eliminalo da pq
 	3. finchè tmp non è vuota, inserisci il valore di priorità massima in pq, poi eliminalo
 	4. restituisci l
 */
