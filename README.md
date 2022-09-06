@@ -31,7 +31,7 @@
 - **concatenazione**: crea una nuova coda ottenuta per concatenazione delle due date in input
 ## lab 9: ricorsione
 - **euclide**: calcola il massimo comune divisore di due numeri interi positivi con l'algoritmo di Euclide
-- **nquad**: calcola l’n-esimo quadrato n^2 si come somma dei primi n numeri dispari
+- **nquad**: calcola l’n-esimo quadrato n^2 come somma dei primi n numeri dispari
 - **pal**: verifica se una parola è palindroma
 - **sizelistrec**: calcola il numero di elementi in una lista
 - **tart**: calcola il valore di un generico elemento del triangolo di Tartaglia
