@@ -191,7 +191,7 @@ progettazione
 	1. assegna a min il massimo dei primi n elementi di q (funzione maxn)
 	2. assegna a curr il primo elemento della queue
 	3. inserisci NULLITEM in q
-	4. finchè l'elemento orrente è diverso da NULLITEM (arrivo alla fine della queue iniziale), 
+	4. finchè l'elemento corrente è diverso da NULLITEM (arrivo alla fine della queue iniziale), 
 		4.1 inserisci curr in q
 		4.2 aggiorna il valore di curr con il primo elemento della queue
 		4.3 se curr è uguale a min, inserisci el in q
