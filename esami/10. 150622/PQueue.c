@@ -142,8 +142,29 @@ progettazione
 
 void pq_increase(PQueue pq)
 {
+	PQueue tmp = newPQ();
+	item max = getMax(pq);
+	deleteMax(pq);
+	while (!emptyPQ(pq))
+	{
+		insert(tmp, getMax(pq));
+		deleteMax(pq);
+	}
+	while (!emptyPQ(tmp))
+	{
+		insert(pq, getMax(tmp)+1);
+		deleteMax(tmp);
+	}
+	insert(pq, max);
+	free(tmp);
+}
+
+/*
+void pq_increase(PQueue pq)
+{
 	for (int i = pq->numel; i > 1; i--)
 	{
 		pq->vet[i]++;
 	}
 }
+*/
