@@ -64,5 +64,5 @@
 - **050918**: listKeys, remGreatestKeys (code a priorità)
 - **170719**: estraiPriorK, aumentaPrior (code a priorità)
 - **150622**: foglieK, pqIncrease, strutturalmenteSimili (Btree, code a priorità, Btree)
-- **010722**: conta_figli_sx, canc (Btree, code)
-- **150722**: conta_figli_unici, al_centro (Btree, stack)
+- **010722**: conta_figli_sx, canc, get mid (Btree, code, liste)
+- **150722**: conta_figli_unici, al_centro, reverse (Btree, stack, liste)
