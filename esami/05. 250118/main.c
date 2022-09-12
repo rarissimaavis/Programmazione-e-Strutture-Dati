@@ -16,7 +16,6 @@
 
 int main (void)
 {
-    
     printf("1. cancDaItem\n");
     list l = newList();
     l = input_list(l);
