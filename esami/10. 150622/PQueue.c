@@ -137,7 +137,12 @@ void output_PQ(PQueue q)
 2. PriorityQueueIncrease
 
 progettazione
-	1. a partire dall'ultimo elemento fino al secondo, modifica la priorità incrementandola di 1
+	1. crea una pqueue tmp
+	2. assegna a max l'elemento di priorità massima di pq ed eliminalo da pq
+	3. finchè pq non è vuota, inserisci il suo massimo in tmp ed eliminalo da pq
+	4. finchè tmp non è vuota, inserisci il suo massimo+1 in pq ed eliminalo da tmp
+	5. inserisci max in pq
+	6. libera lo spazio occupato da tmp
 */
 
 void pq_increase(PQueue pq)
