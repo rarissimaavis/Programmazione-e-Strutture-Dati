@@ -114,8 +114,8 @@ Btree input_Btree(int *a, int i, int numel)
 progettazione
     1. passo base: 
         1.1 se t è vuoto restituisci 0
-        1.2 se t ha un figlio sinistro restituisci 1
-    2. passo ricorsivo: restituisci la somma dei figli sinistri del sottoalbero sx e del sottoalbero dx
+        1.2 se t non ha un figlio sinistro calcola il numero di figli sinistri del sottoalbero dx
+    2. passo ricorsivo: restituisci 1 + la somma dei figli sinistri del sottoalbero sx e del sottoalbero dx
 */
 
 int conta_figli_sx(Btree t)
@@ -126,7 +126,7 @@ int conta_figli_sx(Btree t)
     }
     if (!emptyBtree(figlioSX(t)))
     {
-        return 1;
+        return conta_figli_sx(figlioDX(t));
     }
-    return conta_figli_sx(figlioSX(t)) + conta_figli_sx(figlioDX(t));
+    return 1 + conta_figli_sx(figlioSX(t)) + conta_figli_sx(figlioDX(t));
 }
