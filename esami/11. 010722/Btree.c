@@ -124,7 +124,7 @@ int conta_figli_sx(Btree t)
     {
         return 0;
     }
-    if (!emptyBtree(figlioSX(t)))
+    if (emptyBtree(figlioSX(t)))
     {
         return conta_figli_sx(figlioDX(t));
     }
