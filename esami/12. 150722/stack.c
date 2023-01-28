@@ -114,6 +114,44 @@ progettazione
 
 stack al_centro(stack s1, stack s2)
 {
+	stack tmp1 = newStack();
+	stack tmp2 = newStack();
+	int size = 0;
+	while (!emptyStack(s1))
+	{
+		size++;
+		push(top(s1), tmp1);
+		pop(s1);
+	}
+	for (int i = 0; i < size/2; i++)
+	{
+		push(top(tmp1), s1);
+		pop(tmp1);
+	}
+	while (!emptyStack(s2))
+	{
+		push(top(s2), tmp2);
+		pop(s2);
+	}
+	while (!emptyStack(tmp2))
+	{
+		push(top(tmp2), s2);
+		push(top(tmp2), s1);
+		pop(tmp2);
+	}
+	while (!emptyStack(tmp1))
+	{
+		push(top(tmp1), s1);
+		pop(tmp1);
+	}
+	free(tmp1);
+	free(tmp2);
+	return s1;
+}
+
+/*
+stack al_centro(stack s1, stack s2)
+{
     stack tmp = newStack();
     int size_s1 = s1->numel, size_s2 = s2->numel;
     for (int i = 0; i < size_s1/2; i++)
@@ -140,5 +178,4 @@ stack al_centro(stack s1, stack s2)
     free(tmp);
     return s1;
 }
-
-        
+*/
