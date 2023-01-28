@@ -128,6 +128,33 @@ progettazione
 	3. restituisci q1
 */
 
+queue canc(queue q1, queue q2)
+{
+	enqueue(NULLITEM, q1);
+	queue tmp = newQueue();
+	item curr1, curr2;
+	while (curr1 != NULLITEM)
+	{
+		curr1 = dequeue(q1);
+		while (!emptyQueue(q2))
+		{
+			curr2 = dequeue(q2);
+			if (eq(curr1, curr2))
+			{
+				enqueue(curr1, q1);
+			}
+			enqueue(curr2, tmp);
+		}
+		while (!emptyQueue(tmp))
+		{
+			curr2 = dequeue(tmp);
+			enqueue(curr2, q2);
+		}
+	}
+	return q1;
+}
+
+/*
 int presenteQ(queue q, item el)
 {
 	int v = 0;
@@ -159,3 +186,4 @@ queue canc(queue q1, queue q2)
 	}
 	return q1;
 }
+*/
