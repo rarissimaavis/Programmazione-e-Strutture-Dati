@@ -70,3 +70,6 @@ https://magenta-squirrel-e2f.notion.site/Appunti-PSD-d9ceca59c15e4e9195408c4bda8
 - **010722**: conta_figli_sx, canc, get mid (Btree, code, liste)
 - **150722**: conta_figli_unici, al_centro, reverse (Btree, stack, liste)
 - **140922**: conta_fino_a_k, rimuovi_minimo, secondo_minimo (Btree, stack, liste)
+## libreria ADT
+- raccolta dei vari adt
+- funzioni input/output
